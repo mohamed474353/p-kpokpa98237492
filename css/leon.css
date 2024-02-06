@@ -13,6 +13,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Work Sans', sans-serif;
 
@@ -159,7 +163,6 @@ body {
     border-width: 10px;
     border-style: solid;
     border-color: transparent transparent #f6f6f6 transparent;
-    position: absolute;
     right: 5px;
     top: -20px;
 }
